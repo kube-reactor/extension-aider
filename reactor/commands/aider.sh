@@ -9,5 +9,6 @@ function aider_description () {
 }
 
 function aider_command () {
+  cd "${__curr_dir}"
   aider "$@"
 }
